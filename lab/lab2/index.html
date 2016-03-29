@@ -16,16 +16,107 @@
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Manufacturers</a>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Add New
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">View History</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Email All Manufacturers</a></li>
+              </ul>
+            </div>
           </div>
+
           <ul class="nav navbar-nav navbar-right">
           <!-- ... -->
           </ul>
-        </div>
+          </div>
+          <div class="row">
+          <div class="col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+              </span>
+            </div><!-- /input-group -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+
       </nav>
-      <div class="item">
+
+
+      <div class="item" data-toggle="modal" data-target="#myModal">
         <h2 class="item-heading">Tandy’s Basketweavers</h2>
         <div>490 Freedom Drive<br>
         Philadelphia, PA 19425</div>
+        <span class="label label-danger">Low Inventory</span>
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Manufacturer</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-6"><h3>Tandy's basketweavers</h3></div>
+                  <div class="col-md-6">
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-default">Edit</button>
+                      <button type="button" class="btn btn-default">Delete</button>
+                      <button type="button" class="btn btn-default">Export</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-4"><h4>Address</h4></div>
+                  <div class="col-md-4"><h4>Contact</h4></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">400 S 46th Street<br>
+                  Philadelphia, PA 19144</div>
+                  <div class="col-md-4">Dave Javies<br>
+                  Senior Weaver<br>
+                dj@tbw.com</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-9">
+                    <h4>Sales</h4>
+                  </div>
+                </div>
+                <table class="table">
+                  <tr class='active'>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Purchase</td>
+                  </tr>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>Fruit Basket</td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>Gift Basket</td>
+                  </tr>
+                  <tr>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>Easter Basket</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Close</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
       </div>
       <div class="item">
         <h2 class="item-heading">Basket Case</h2>
