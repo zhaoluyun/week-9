@@ -1,5 +1,9 @@
 # Final Project Proposal
 
+Your assignment this week is to write a detailed proposal for your final
+project. In proposing your final, try to address each of the following
+areas.
+
 
 ## Problem / Question
 
@@ -11,8 +15,8 @@ application speak to this problem/question?
 ## The data
 
 Geospatial applications are all about working with data. What datasets
-do you plan/like to use? If the data you'll be working with isn't from
-already stored in a way you can use it, how will you be storing your data?
+would you plan/like to use? If the data you'll be working with isn't
+already stored in a way that you can use, how will you be storing your data?
 
 
 ## Technologies used
@@ -36,8 +40,13 @@ At a high level, how do you expect people to use your application?
 
 #### Layouts and visual design
 
-Referring to the documents in the [layouts repository]() describe your
-application's spatial/visual arrangement(s).
+So far, we've built all our applications with a side bar for
+representing non-map content and navigation. This is not the only
+successful design. Extra content could be displayed in a top bar,
+through modals, through side bars on both sides, and any combination of
+these as well as a number not mentioned. Try to describe your
+application's visual layout. Conceptually (no need for extensive CSS
+here), what will this design require?
 
 
 ## Anticipated difficulties
@@ -58,10 +67,6 @@ that you think would be useful? What technologies not covered seem exciting to
 you (you don't necessarily have to fully understand what they're for,
 this is a chance for you to get our help interpreting a technology's
 purpose/usage).
-
-
-
-
 
 
 
